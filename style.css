@@ -1,0 +1,58 @@
+@font-face {
+    font-family: "OpenSans";
+    src: url(./fonts/OpenSans-VariableFont_wdth\,wght.ttf);
+}
+*{
+    font-family:OpenSans;
+}
+h1{
+font-weight: 700;
+font-size: 18px;
+letter-spacing: 0.13em;
+text-align: center;
+color: #48555b;
+}
+#block{
+   
+    display: flex;
+  justify-content: center;
+
+}
+#block__child{
+    width: 50px;
+    height: 2px;
+    background-color: #00A4E5;
+}
+.bottom_section{
+    display: flex;
+    justify-content: center;
+    margin-top: 85px;
+    gap: 76px;
+}
+.bottom_section__child{
+    max-width: 405px;
+
+}
+.firstchild{
+font-weight: 500;
+font-size: 20px;
+letter-spacing: 0.01em;
+color: #48555b;
+
+}
+#blueword{
+    letter-spacing: 0.01em;
+color: #16ace8;
+}
+.secondchild{
+font-weight: 400;
+font-size: 13px;
+line-height: 177%;
+letter-spacing: 0.01em;
+color: #48555b;
+}
+.bottom_section__secondchild{
+   margin-top: 25px;
+   display: flex;
+   gap: 20px;
+}
